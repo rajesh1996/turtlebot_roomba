@@ -1,5 +1,5 @@
 ## ROS - Beginner Tutorials
-[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://github.com/rajesh1996/beginner_tutorials/blob/master/LICENSE)
+[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://github.com/rajesh1996/turtlebot_roomba/blob/Week12_HW/LICENSE)
 
 ## Author
 Rajeshwar N S
