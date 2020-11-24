@@ -5,11 +5,14 @@
 Rajeshwar N S
 
 ## Overview
-Turtlebot performing roomba like movement with obstacle avoidance
+Turtlebot performing roomba like autonmous navigation with obstacle avoidance
 
 ## Dependencies
 * Ubuntu-18.04
 * ROS Melodic
+* Gazebo 9
+* ROS libraries - roscpp,geometry_msgs,sensor_msgs
+* Turtlebot3
 
 ## Create catkin workspace
 ```
