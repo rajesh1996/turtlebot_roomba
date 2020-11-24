@@ -1,4 +1,4 @@
-## ROS - Beginner Tutorials
+## Obstcle Avoidance - Turtlebot
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://github.com/rajesh1996/beginner_tutorials/blob/master/LICENSE)
 
 ## Author
