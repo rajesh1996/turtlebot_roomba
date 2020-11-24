@@ -35,5 +35,5 @@
 	  type="record"
 	  name="record"
 	  output="screen"
-	  args="-a -O $(find beginner_tutorials)/results/roomba.bag -x /camera/(.*)" if="$(arg start_record)"/>
+	  args="-a -O $(find turtlebot_roomba)/results/roomba.bag -x /camera/(.*)" if="$(arg start_record)"/>
 </launch>
