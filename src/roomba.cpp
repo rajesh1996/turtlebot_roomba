@@ -25,7 +25,7 @@
  *SOFTWARE.
  */
 #include <iostream>
-#include "roomba.h"
+#include "../include/roomba.h"
 
 /**
  * @fn  Roomba_bot()
@@ -72,8 +72,10 @@ Roomba_bot::~Roomba_bot() {
  * @param msg
  */
 void Roomba_bot::laserCallback(const sensor_msgs::LaserScan::ConstPtr &msg) {
-    // limit the lidar scan to paticular angles. These can be changed accordingly
-    if (msg->ranges[0] > 0.8 && msg->ranges[15] > 0.8 && msg->ranges[345] > 0.8) {
+    // limit the lidar scan to paticular angles.
+    // These can be changed accordingly
+    if (msg->ranges[0] > 0.8 && msg->ranges[15] >
+        0.8 && msg->ranges[345] > 0.8) {
         setObstacle(false);
     } else {
         setObstacle(true);
@@ -106,7 +108,6 @@ bool Roomba_bot::setObstacle(bool obs) {
  *
  */
 void Roomba_bot::walkRoomba() {
-
     if (checkObstacle()) {
         ROS_INFO_STREAM("Obstacle present- Turning");
         // Turn by giving angular velocity and set linear vel to zero
