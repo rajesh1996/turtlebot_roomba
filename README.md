@@ -47,6 +47,7 @@ roslaunch turtlebot_roomba roomba_turtle.launch start_record:=true
 * This command will ouput a bag file containing the messages in the results dir
 
 ## Play rosbag file
+* Download the rosbag file - https://drive.google.com/file/d/1jV8Lb8U6i7UXTccHIkW736YCPLLXhdIX/view?usp=sharing
 * Comment out the turtlebot_roomba node in launch file and Start roscore and in a new terminal
 ```
 source ~/catkin_ws/devel/setup.bash
