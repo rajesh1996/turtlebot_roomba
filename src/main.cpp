@@ -25,7 +25,7 @@
  *SOFTWARE.
  */
 
-#include "roomba.h"
+#include "../include/roomba.h"
 
 /**
  * @brief Main file that initialize the node and calls the roomba method
